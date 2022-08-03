@@ -1,7 +1,6 @@
 .container {
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
 }
 
 .item {
@@ -12,32 +11,32 @@
 }
 
 .header {
-    background-color: rgb(127, 189, 255);
+    background-color: aqua;
     height: 50px;
 }
 
 .Container1 {
     display: flex;
     margin: 10px 0;
-    height: 410px;
+    height: 400px;
 }
 
 .Sub1 {
     display: flex;
     flex-direction: column;
-    width: 35%;
+    width: 37%;
     margin-right: 7px;
 }
 
 .hero {
     background-color:rgb(240, 220, 220);
-    height: 150px;
-    margin-bottom: 10px;
+    height: 145px;
+    margin-bottom: 7px;
 }
 
 .side {
     background-color: rgb(225, 225, 82);
-    height: 250px;
+    height: 252px;
 }
 
 .Sub2 {
