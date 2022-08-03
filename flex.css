@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+
+.item {
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
+
+.header {
+    background-color: rgb(127, 189, 255);
+    height: 50px;
+}
+
+.Container1 {
+    display: flex;
+    margin: 10px 0;
+    height: 410px;
+}
+
+.Sub1 {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin-right: 7px;
+}
+
+.hero {
+    background-color:rgb(240, 220, 220);
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.side {
+    background-color: rgb(225, 225, 82);
+    height: 250px;
+}
+
+.Sub2 {
+    display: flex;
+    flex-direction: column;
+    width: calc(65% - 3px);
+}
+
+.main {
+    background-color: rgb(157, 194, 102);
+    height: 270px;
+    margin-bottom: 10px;
+}
+
+.extra {
+    height: 130px;
+    background-color: rgb(126, 132, 137);
+}
+
+.Container2 {
+    display: flex;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.imgs {
+    width: 70%;
+    background-color: rgb(22, 206, 166);
+    margin-right: 5px;
+}
+
+.posts {
+    width: calc(30% - 3px);
+    background-color: pink;
+}
+
+.footer {
+    height: 50px;
+    background-color: orange;
+}
